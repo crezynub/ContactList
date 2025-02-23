@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/people
+    username: postgres
+    password: postgres
+    hikari:
+      schema: people_schema
+  profiles:
+    active: dev
